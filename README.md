@@ -72,13 +72,16 @@ Once the webcam feed starts, the frame will display:
 - Objects inside the predefined polygon zone will trigger zone-specific annotations.
   
 ## Arguments
---webcam-resolution [WIDTH HEIGHT]: Set the webcam resolution (default: 1280x720).
-Troubleshooting
-Webcam Not Detected: Ensure your webcam is connected and the correct device index is being used in cv2.VideoCapture().
-No Objects Detected: Ensure the YOLOv8 model is correctly loaded and that the webcam feed has sufficient lighting for detection.
-Future Enhancements
-Add support for more object classes or specific class filtering.
-Extend zone functionality to dynamically change shape or size.
-Improve performance with hardware acceleration or multi-threading.
-License
+- --webcam-resolution [WIDTH HEIGHT]: Set the webcam resolution (default: 1280x720).
+  
+## Troubleshooting
+- **Webcam Not Detected:** Ensure your webcam is connected and the correct device index is being used in cv2.VideoCapture().
+- **No Objects Detected:** Ensure the YOLOv8 model is correctly loaded and that the webcam feed has sufficient lighting for detection.
+  
+## Future Enhancements
+- Add support for more object classes or specific class filtering.
+- Extend zone functionality to dynamically change shape or size.
+- Improve performance with hardware acceleration or multi-threading.
+  
+## License
 MIT License
